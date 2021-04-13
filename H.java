@@ -36,7 +36,7 @@ public class H {
                 // delay 0.3 second
                 TimeUnit.MICROSECONDS.sleep(300000);
             } catch (InterruptedException e) {
-                System.err.format("IOException: %s%n", e);
+                System.out.println(e);
             }
             i++;
         }
